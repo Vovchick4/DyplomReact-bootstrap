@@ -1,0 +1,133 @@
+/* section */
+.Booking > section {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.block_booking {
+  height: 100%;
+  min-height: 600px;
+  width: 100%;
+  background: none;
+}
+
+.booking-box {
+  margin-top: 10%;
+  background: rgba(201, 188, 188, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  transition: 1.4s;
+  opacity: 0.6;
+}
+
+.booking-box:hover {
+  transition: 1.4s;
+  opacity: 1;
+}
+
+.booking-box > h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.users-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 360px;
+}
+
+.users-box > input[type="text"] {
+  background: none;
+}
+
+.users-box > input[type="email"] {
+  background: none;
+}
+
+.users-box > input[type="date"] {
+  background: none;
+}
+
+.users-box > input[type="time"] {
+  background: none;
+}
+
+.users-box > textarea[type="comments"] {
+  background: none;
+}
+
+.users-box > input[type="text"]:focus {
+  background: none;
+  border: 3px solid #555;
+}
+
+p > input[type="text"] {
+  background: none;
+}
+
+p > input[type="text"]:focus {
+  background: none;
+  border: 3px solid #555;
+}
+
+.users-box > input[type="email"]:focus {
+  background: none;
+  border: 3px solid #555;
+}
+
+.users-box > input[type="date"]:focus {
+  background: none;
+  border: 3px solid #555;
+}
+
+.users-box > input[type="time"]:focus {
+  background: none;
+  border: 3px solid #555;
+}
+
+.users-box > textarea[type="comments"]:focus {
+  height: 100px;
+  background: none;
+  border: 3px solid #555;
+}
+
+.button_book:hover {
+  transition: 1.4s;
+}
+
+hr {
+  color: rgb(65, 63, 63);
+  background-color: rgb(65, 63, 63);
+  height: 2px; /* Толщина линии */
+}
+
+.text_booking {
+  text-align: center;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+/* END section */
+
+/* footer */
+.Booking > footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: black;
+  color: #ffffff;
+}
+
+.col-md-3 > h4 {
+  margin-top: 60px;
+}
+
+.col-md-3 > p {
+  color: #e0e0e0;
+}
+
+.img_f {
+  margin-top: 30px;
+  margin-left: 30px;
+}

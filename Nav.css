@@ -1,0 +1,32 @@
+.logos {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.logos:hover {
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+.item_button {
+  color: black;
+  font-weight: 400;
+}
+
+.item_button:hover {
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+#standard-basic {
+  color: rgb(255, 23, 23);
+}
+
+.active-pink-3 {
+  border: 4px solid rgb(107, 94, 94);
+  box-shadow: 0 0 0 2px rgb(167, 140, 140);
+}
